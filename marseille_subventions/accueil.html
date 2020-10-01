@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/38d87a500a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav"></div>
+        <nav>
+            <a href="accueil.html"><img class="logo" src="Images/marseillelogo.png" alt="logo de la ville de Marseille"></a>
+            <div class="buttons">
+                <ul>
+                    <li class=NavButton><a id="active"href="accueil.html"> Accueil </a></li>
+                    <li class=NavButton><a href="projet.html"> Projet </a></li>
+                    <li class=NavButton><a href="article.html"> Articles </a></li>
+                    <li class=NavButton><a href="contact.html"> Contact </a></li>
+                </ul>
+            </div>    
+        </nav>
+    </div>
+    <div class="banniere">
+        
+        <!-- <img class="banniereimg"src="../photomarseillebm.jpg" alt="Photo de Marseille"> -->
+        <div class="textbanniere">
+            <h1>Investissez pour Marseille</h1>
+            <h2>"La prochaine Smart City du XXIeme siècle"</h2>
+            <button>Soutenez-nous !</button>
+        </div>
+    </div>
+    <div class="chiffres"> <!--Les 3 colonnes d'informations-->
+        <div class="colonne" id="colonne1"> <!--Les 4 secteurs stratégiques de développement-->
+            <img src="Images/diagramme.png" alt="Diagramme des quatre secteurs">
+            <h2>4 secteurs stratégiques de développement</h2>
+            <p>la <strong class="strong">santé</strong>, le <strong class="strong">transport</strong>, l'<strong class="strong">environnement</strong>, et la <strong class="strong">défense & sécurité</strong></p>
+            <!--Ajouter un lien vers l'article--> <a class="links" href="projet.html">Voir notre projet ></a>
+        </div>
+
+        <div class="colonne" id="colonne2"> <!--Un marché en forte croissance-->
+            <img src="Images/increase.png" alt="Graphique">
+             <h2>Un marché en forte croissance</h2>
+             <p><strong class="strong">3,2 milliards</strong> de dollars de chiffre d'affaires mondial en <strong class="strong">2016</strong> <br>
+                     <strong class="strong">17,3 milliards</strong> de dollars de chiffre d'affaires mondial en <strong class="strong">2020</strong></p>
+             <!--Ajouter un lien vers l'article--> <a class="links" href="projet.html">Voir notre projet ></a>
+         </div>
+
+        <div class="colonne" id="colonne3"> <!--25% de gain de temps quotidien-->
+            <img src="Images/25.png" alt="Pourcentage">
+            <h2>De gain de temps</h2>
+            <p>Temps de trajet quotidien réduit de <strong class="strong">25 %</strong></p>
+            <!--Ajouter un lien vers l'article--> <a class="links" href="article.html">Lire l'article ></a>
+        </div>
+    </div>
+    <div class="Newsletter">
+        <!--Image de fond--> <div class="image" style="background-image:url(Images/photo_ia_retouche.jpg)">   
+         <!--Bloc Newsletter--> <div class="contactNewsletter">
+             <p class="pnews"> Entrez votre adresse mail pour recevoir notre <strong>Newsletter</strong></p>
+             <div class="email">
+                 <i class="far fa-envelope"></i>
+                 <form class="formNewsletter">
+                    <input type="text" placeholder="votreadresse@email.com">
+                 </form>
+                 <button>Envoyer</button>
+             </div>
+             </div> <!--Fin Bloc Newsletter-->
+         </div>    
+     </div>
+     <div class="footer">
+        <div class="footernav">
+            <ul class="footernavlinks">
+                <li class="footerlink"><a class="buttonfooter" href="accueil.html">Accueil</a></li>
+                <li class="footerlink"><a class="buttonfooter" href="projet.html">Projet</a></li>
+                <li class="footerlink"><a class="buttonfooter" href="article.html">Articles</a></li>
+                <li class="footerlink"><a class="buttonfooter" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <p class="rejoingnez">
+                Rejoignez nous sur nos réseaux sociaux 
+            </p>
+
+            <ul class="socialicons">
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-instagram-square"></i></li>
+                <li><i class="fab fa-twitter-square"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+            </ul>
+
+            <p class="copyright">
+                Toutes les images présentes sont libres de droits.
+            </p>
+    
+        </div>
+        
+        <div class="contactez">
+            <ul class="footerinfos">
+                <li id="infos">Contactez-nous</li>
+                <li><i class="fas fa-globe"></i><a id="nonea" href="#">investissezpourmarseille.fr</a></li>
+                <li><i id="investissez" class="far fa-envelope"></i>investissezpourmarseille@gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i>Rue de l'investissement, 13001 Marseille</li>
+            </ul>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20696.62099947082!2d5.374107198949379!3d43.29548932733442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9bf4344da5333%3A0x40819a5fd970220!2sMarseille!5e0!3m2!1sfr!2sfr!4v1601281179541!5m2!1sfr!2sfr" width="450" height="258" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div> 
+    </div> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="Script/app.js"></script>
+</body>
+</html>

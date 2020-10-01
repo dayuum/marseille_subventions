@@ -1,0 +1,48 @@
+.flexbox {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+}
+.toppage {
+    display: inline-flex;
+    width: 900px;
+    justify-content: space-between;
+}
+#banniere {
+    width: 900px;
+}
+.midpage {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 900px;
+}
+#flexbox8 {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 900px;
+}
+#newsletter {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../photo_ia.jpg");
+}
+#cadrenew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test {
+    display: block;
+    position: absolute;
+    left: 300px;
+}
+
+
+/* APPJS APPJS APPJS  */
+
+.bloc1 {
+    height: 2000px;
+    font-size: 200px;
+}
